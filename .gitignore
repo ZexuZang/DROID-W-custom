@@ -1,24 +1,35 @@
-datasets/
+# Build / packaging
 build/
 *.egg-info/
 
+# Python cache / binaries
 __pycache__/
 *.pyc
 *.so
 
-
-pretrained/
-
-output*/
-
+# IDE
 .vscode/
 
+# Data / pretrained models
+datasets/
+Datasets/
+pretrained/
+
+# Outputs / temp files
+output/
+outputs/
+Outputs/
 temp/
 
+# Logs and generated media
 *.out
+*.log
 *.avi
 *.gif
 *.mp4
-*.log
+*.mov
 
-Outputs/
+# Archives
+*.zip
+*.tar
+*.tar.gz
